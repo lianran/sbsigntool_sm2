@@ -1,5 +1,5 @@
 # sbsigntool_sm2
-This code is modified from the [sbsigntool](https://github.com/wmarone/sbsigntool), I just take palce the sign algorithm (sha256 to sm2) using the [GMSSL](http://gmssl.org/).
+This code is modified from the [sbsigntool](https://github.com/wmarone/sbsigntool), I just take palce the sign algorithm (sha256 to sm2) using [GMSSL](http://gmssl.org/).
 ##how to install
 Before you compile the code, you should make sure the gmssl installed. And then eport the path of the gmssl:
 ```

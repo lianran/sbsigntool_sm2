@@ -20,15 +20,3 @@ If you have finished the installation, you can do the following to generate a ke
 	4.use the cert to verify the signed file
 		sbverify --cert eckey.cert test.efi
 
-
-#test flow
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```

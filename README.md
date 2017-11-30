@@ -19,3 +19,16 @@ If you have finished the installation, you can do the following to generate a ke
 		sbsign --key eckey.pem --cert eckey.cert --output test.efi grubx64.efi
 	4.use the cert to verify the signed file
 		sbverify --cert eckey.cert test.efi
+
+
+#test flow
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
